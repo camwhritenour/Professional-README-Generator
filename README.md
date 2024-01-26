@@ -65,7 +65,7 @@ renderLicenseLinks function
 ## Screenshots
 
 The following video application's appearance and functionality:
-
+https://drive.google.com/file/d/1IBP0SxiAEi6RJnoihGvdTCKlthUE9-Cy/view?usp=sharing
 
 
 ## Credits
