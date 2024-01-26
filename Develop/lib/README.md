@@ -1,8 +1,9 @@
 
-  # READ ME
+  # d
+  ![GitHub License](https://img.shields.io/badge/-MIT-default.svg)
 
   ## Description
-  creates readme
+  d
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,21 +14,23 @@
   * [Questions](#questions)
 
   ## Installation
-  run npm i before running node index.js
+  d
 
   ## Usage
-  answer prompts
+  d
 
   ## License
-  ISC
+  Covered under the MIT license
 
   ## Contributing
-  My GitHub username: camwhritenour
-  Reach out to me with any questions @ whritenourc@yahoo.com
+  d
 
   ## Tests
-  none
+  d
 
   ## Questions
-  none
+  My GitHub username: d
+  
+ Reach out to me with any questions @ d
+
 

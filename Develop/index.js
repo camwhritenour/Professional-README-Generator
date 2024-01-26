@@ -29,7 +29,7 @@ const questions = [
     {
         type: 'list',
         message: 'Choose a license.',
-        choices: ['CC','ISC', 'MIT', 'GPL'],
+        choices: ['CC','ISC', 'MIT', 'GPL', 'none'],
         name: 'license'
     },
     {
@@ -65,7 +65,7 @@ function init() {
     .then((data) => {
         const readmePageContent = generateMarkdown(data);
 
-        fs.writeFile('README.md', readmePageContent, (err) =>
+        fs.writeFile('./lib/README.md', readmePageContent, (err) =>
             err ? console.log(err) : console.log('Successfully created README.md file.')
         );
     });
