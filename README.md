@@ -1,4 +1,4 @@
-# 09 Node.js Challenge: Professional README Generator
+# Professional README Generator
 
 ## Your Task
 
@@ -45,4 +45,33 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## To be
+## Features Added
+
+```
+Created questions list
+Created inquirer prompt to gather information
+Created markdown template
+Added License badge
+Added License section function
+
+```
+
+## To Be Added
+
+```
+renderLicenseLinks function
+```
+
+## Screenshots
+
+The following video application's appearance and functionality:
+
+
+
+## Credits
+
+Myself Cameron Whritenour https://github.com/camwhritenour
+
+## Link to Website
+
+https://camwhritenour.github.io/Professional-README-Generator
