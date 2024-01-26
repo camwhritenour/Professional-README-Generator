@@ -34,13 +34,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Enter your GitHub username.',
-        name: 'github'
-    },
-    {
-        type: 'input',
-        message: 'Enter your email.',
-        name: 'email'
+        message: 'Enter the contribution guidelines.',
+        name: 'contributing'
     },
     {
         type: 'input',
@@ -49,12 +44,23 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Enter some commonlly asked questions a user may have.',
-        name: 'questions'
+        message: 'Enter your GitHub username.',
+        name: 'github'
     },
+    {
+        type: 'input',
+        message: 'Enter your email.',
+        name: 'email'
+    }
 ];
 
-inquirer
+
+
+
+// TODO: Create a function to initialize app
+// This function prompts the user with questions and when completed creates the readme file with the inputted information.
+function init() {
+    inquirer
     .prompt(questions)
     .then((data) => {
         const readmePageContent = generateMarkdown(data);
@@ -62,15 +68,8 @@ inquirer
         fs.writeFile('README.md', readmePageContent, (err) =>
             err ? console.log(err) : console.log('Successfully created README.md file.')
         );
-    })
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {
-
-}
+    });
+};
 
 // Function call to initialize app
 init();

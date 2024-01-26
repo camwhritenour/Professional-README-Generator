@@ -36,14 +36,14 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Contributing
-  My GitHub username: ${data.github}
-  Reach out to me with any questions @ ${data.email}
+  ${data.contributing}
 
   ## Tests
   ${data.tests}
 
   ## Questions
-  ${data.questions}
+  My GitHub username: ${data.github}
+  Reach out to me with any questions @ ${data.email}
 
 `;
 }
